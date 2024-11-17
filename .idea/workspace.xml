@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Add initial project setup and basic Python scripts&#10;&#10;Initialized the project with necessary IDE configuration files and set up code styles, VCS, and workspace settings. Added basic Python scripts covering introductory concepts and type hints.">
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_10_assignment_operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_11_comparison_operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_12_logical_operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_13_strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_14_type_conversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_15_simple_adder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_16_booleans.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_17_lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_18_tuples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_19_sets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_20_frozen_sets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_21_dictionaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_22_none.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_7_integers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_8_floats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_python_basics/_9_arithmetic_operators.py" afterDir="false" />
+    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Add basic Python scripts for various operators&#10;&#10;Created new Python script files covering integers, floats, arithmetic, assignment, comparison, and logical operators. Also set up scripts for handling strings and type conversion. Updated workspace configuration and added relevant IDE settings.">
+      <change afterPath="$PROJECT_DIR$/_2_python_basics/_23_mad_libs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_control_and_flow/_1_if_elif_else.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_2_python_basics/_6_type_hints.py" beforeDir="false" afterPath="$PROJECT_DIR$/_2_python_basics/_6_type_hints.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +64,8 @@
     "Python._1_syntax.executor": "Run",
     "Python._20_frozen_sets.executor": "Run",
     "Python._21_dictionaries.executor": "Run",
+    "Python._22_none.executor": "Run",
+    "Python._23_mad_libs.executor": "Run",
     "Python._3_variables.executor": "Run",
     "Python._4_constants.executor": "Run",
     "Python._5_dataTypes.executor": "Run",
@@ -103,10 +90,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/PythonIntroduction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._22_none">
+  <component name="RunManager" selected="Python._23_mad_libs">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
@@ -126,29 +114,6 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_17_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_2_python_basics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_2_python_basics/_17_lists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="_19_sets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -235,6 +200,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_2_python_basics/_22_none.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_23_mad_libs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_2_python_basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_2_python_basics/_23_mad_libs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._23_mad_libs" />
         <item itemvalue="Python._22_none" />
         <item itemvalue="Python._21_dictionaries" />
         <item itemvalue="Python._20_frozen_sets" />
         <item itemvalue="Python._19_sets" />
-        <item itemvalue="Python._17_lists" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +392,7 @@
       <workItem from="1731736083330" duration="25000" />
       <workItem from="1731736140138" duration="206000" />
       <workItem from="1731736354593" duration="2378000" />
-      <workItem from="1731738743331" duration="9382000" />
+      <workItem from="1731738743331" duration="11696000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project setup and basic Python scripts&#10;&#10;Initialized the project with necessary IDE configuration files and set up code styles, VCS, and workspace settings. Added basic Python scripts covering introductory concepts and type hints.">
       <option name="closed" value="true" />
@@ -414,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731739958321</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add basic Python scripts for various operators&#10;&#10;Created new Python script files covering integers, floats, arithmetic, assignment, comparison, and logical operators. Also set up scripts for handling strings and type conversion. Updated workspace configuration and added relevant IDE settings.">
+      <option name="closed" value="true" />
+      <created>1731769752219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731769752219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +418,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial project setup and basic Python scripts&#10;&#10;Initialized the project with necessary IDE configuration files and set up code styles, VCS, and workspace settings. Added basic Python scripts covering introductory concepts and type hints." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial project setup and basic Python scripts&#10;&#10;Initialized the project with necessary IDE configuration files and set up code styles, VCS, and workspace settings. Added basic Python scripts covering introductory concepts and type hints." />
+    <MESSAGE value="Add basic Python scripts for various operators&#10;&#10;Created new Python script files covering integers, floats, arithmetic, assignment, comparison, and logical operators. Also set up scripts for handling strings and type conversion. Updated workspace configuration and added relevant IDE settings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add basic Python scripts for various operators&#10;&#10;Created new Python script files covering integers, floats, arithmetic, assignment, comparison, and logical operators. Also set up scripts for handling strings and type conversion. Updated workspace configuration and added relevant IDE settings." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -448,6 +445,8 @@
     <SUITE FILE_PATH="coverage/python2024$_9_arithmetic_operators.coverage" NAME="_9_arithmetic_operators Coverage Results" MODIFIED="1731745416986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_7_integers.coverage" NAME="_7_integers Coverage Results" MODIFIED="1731745068992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_15_simple_adder.coverage" NAME="_15_simple_adder Coverage Results" MODIFIED="1731747033197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_22_none.coverage" NAME="_22_none Coverage Results" MODIFIED="1731769719697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_6_type_hints.coverage" NAME="_6_type_hints Coverage Results" MODIFIED="1731740277226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_23_mad_libs.coverage" NAME="_23_mad_libs Coverage Results" MODIFIED="1731771083131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
   </component>
 </project>
