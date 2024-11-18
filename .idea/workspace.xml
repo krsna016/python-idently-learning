@@ -4,32 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Add 'Mad Libs' script and update workspace settings.&#10;&#10;Introduced a new Python script for creating a 'Mad Libs' story. Additionally, updated various IDE workspace settings and reorganized script naming conventions for better clarity.">
-      <change afterPath="$PROJECT_DIR$/_3_control_and_flow/_02_if_else.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_3_control_and_flow/_03_for_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_3_control_and_flow/_04_while_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_3_control_and_flow/_05_break_and_continue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_3_control_and_flow/_06_loop_else.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_3_control_and_flow/_07_rock_paper_scissor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_functions/_01_creating_a_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_functions/_02_pass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_functions/_03_parameters_arguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_functions/_04_return.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_functions/_05_recursion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_functions/_06_args_kwargs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_functions/_07_slash_asterisk_and_special.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_functions/_08_chat_bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_errors/_01_user_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_errors/_02_try_except.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_errors/_03_else_finally.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_errors/_04_raise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_5_errors/_05_unknown_errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_6_modules/_03_website_status.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7_python_basics/_01_truthy_and_falsy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7_python_basics/_02_comparing_floats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_7_python_basics/_03_scopes.py" afterDir="false" />
+    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Add comprehensive Python examples covering functions and errors&#10;&#10;Introduced various Python scripts demonstrating the use of args/kwargs, special parameters, chat bot functionality, user input handling, and different error handling techniques. Additionally, added examples on truthy/falsy values, comparing floats, and understanding variable scopes.">
+      <change afterPath="$PROJECT_DIR$/_8_lists/_02_slicing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_8_lists/_03_grocery_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_control_and_flow/_01_if_elif_else.py" beforeDir="false" afterPath="$PROJECT_DIR$/_3_control_and_flow/_01_if_elif_else.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_8_lists/_01_list_comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/_8_lists/_01_list_comprehension.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -75,14 +55,17 @@
   "keyToString": {
     "Python._01_creating_a_function.executor": "Run",
     "Python._01_if_elif_else.executor": "Run",
+    "Python._01_list_comprehension.executor": "Run",
     "Python._01_modules.executor": "Run",
     "Python._01_truthy_and_falsy.executor": "Run",
     "Python._01_user_input.executor": "Run",
     "Python._02_comparing_floats.executor": "Run",
     "Python._02_if_else.executor": "Run",
+    "Python._02_slicing.executor": "Run",
     "Python._02_try_except.executor": "Run",
     "Python._03_else_finally.executor": "Run",
     "Python._03_for_loop.executor": "Run",
+    "Python._03_grocery_list.executor": "Run",
     "Python._03_parameters_arguments.executor": "Run",
     "Python._03_scopes.executor": "Run",
     "Python._03_website_status.executor": "Run",
@@ -141,8 +124,8 @@
       <recent name="$PROJECT_DIR$/PythonIntroduction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._03_scopes">
-    <configuration name="_01_modules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python._03_grocery_list">
+    <configuration name="_01_list_comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,35 +134,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_6_modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_8_lists" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_6_modules/_01_modules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_01_truthy_and_falsy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_7_python_basics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_7_python_basics/_01_truthy_and_falsy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_8_lists/_01_list_comprehension.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,6 +171,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="_02_slicing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_8_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_8_lists/_02_slicing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_03_grocery_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_8_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_8_lists/_03_grocery_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="_03_scopes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
@@ -234,36 +240,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_03_website_status" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_6_modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_6_modules/_03_website_status.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._03_grocery_list" />
+        <item itemvalue="Python._02_slicing" />
+        <item itemvalue="Python._01_list_comprehension" />
         <item itemvalue="Python._03_scopes" />
         <item itemvalue="Python._02_comparing_floats" />
-        <item itemvalue="Python._01_truthy_and_falsy" />
-        <item itemvalue="Python._03_website_status" />
-        <item itemvalue="Python._01_modules" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +285,7 @@
       <workItem from="1731896172735" duration="2984000" />
       <workItem from="1731904814098" duration="31000" />
       <workItem from="1731904850266" duration="32000" />
-      <workItem from="1731904888973" duration="6748000" />
+      <workItem from="1731904888973" duration="16179000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project setup and basic Python scripts&#10;&#10;Initialized the project with necessary IDE configuration files and set up code styles, VCS, and workspace settings. Added basic Python scripts covering introductory concepts and type hints.">
       <option name="closed" value="true" />
@@ -328,68 +311,91 @@
       <option name="project" value="LOCAL" />
       <updated>1731814042892</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add comprehensive Python examples covering functions and errors&#10;&#10;Introduced various Python scripts demonstrating the use of args/kwargs, special parameters, chat bot functionality, user input handling, and different error handling techniques. Additionally, added examples on truthy/falsy values, comparing floats, and understanding variable scopes.">
+      <option name="closed" value="true" />
+      <created>1731925662535</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731925662536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial project setup and basic Python scripts&#10;&#10;Initialized the project with necessary IDE configuration files and set up code styles, VCS, and workspace settings. Added basic Python scripts covering introductory concepts and type hints." />
     <MESSAGE value="Add basic Python scripts for various operators&#10;&#10;Created new Python script files covering integers, floats, arithmetic, assignment, comparison, and logical operators. Also set up scripts for handling strings and type conversion. Updated workspace configuration and added relevant IDE settings." />
     <MESSAGE value="Add 'Mad Libs' script and update workspace settings.&#10;&#10;Introduced a new Python script for creating a 'Mad Libs' story. Additionally, updated various IDE workspace settings and reorganized script naming conventions for better clarity." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 'Mad Libs' script and update workspace settings.&#10;&#10;Introduced a new Python script for creating a 'Mad Libs' story. Additionally, updated various IDE workspace settings and reorganized script naming conventions for better clarity." />
+    <MESSAGE value="Add comprehensive Python examples covering functions and errors&#10;&#10;Introduced various Python scripts demonstrating the use of args/kwargs, special parameters, chat bot functionality, user input handling, and different error handling techniques. Additionally, added examples on truthy/falsy values, comparing floats, and understanding variable scopes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add comprehensive Python examples covering functions and errors&#10;&#10;Introduced various Python scripts demonstrating the use of args/kwargs, special parameters, chat bot functionality, user input handling, and different error handling techniques. Additionally, added examples on truthy/falsy values, comparing floats, and understanding variable scopes." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python2024$_05_break_and_continue.coverage" NAME="_05_break_and_continue Coverage Results" MODIFIED="1731820007759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
-    <SUITE FILE_PATH="coverage/python2024$_21_dictionaries.coverage" NAME="_21_dictionaries Coverage Results" MODIFIED="1731769321731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_01_list_comprehension.coverage" NAME="_01_list_comprehension Coverage Results" MODIFIED="1731942935228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_8_lists" />
     <SUITE FILE_PATH="coverage/python2024$_06_args_kwargs.coverage" NAME="_06_args_kwargs Coverage Results" MODIFIED="1731834204819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_4_functions" />
-    <SUITE FILE_PATH="coverage/python2024$_08_chat_bot.coverage" NAME="_08_chat_bot Coverage Results" MODIFIED="1731838651155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_4_functions" />
-    <SUITE FILE_PATH="coverage/python2024$_04_while_loop.coverage" NAME="_04_while_loop Coverage Results" MODIFIED="1731818982020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
     <SUITE FILE_PATH="coverage/python2024$_01_truthy_and_falsy.coverage" NAME="_01_truthy_and_falsy Coverage Results" MODIFIED="1731922931151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7_python_basics" />
-    <SUITE FILE_PATH="coverage/Python2024$_3_variables.coverage" NAME="_3_variables Coverage Results" MODIFIED="1731737633636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_PythonBasics" />
-    <SUITE FILE_PATH="coverage/python2024$_01_if_elif_else.coverage" NAME="_01_if_elif_else Coverage Results" MODIFIED="1731814260386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
-    <SUITE FILE_PATH="coverage/python2024$_14_type_conversion.coverage" NAME="_14_type_conversion Coverage Results" MODIFIED="1731746822822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_03_grocery_list.coverage" NAME="_03_grocery_list Coverage Results" MODIFIED="1731946774836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_8_lists" />
     <SUITE FILE_PATH="coverage/python2024$_06_letters_only.coverage" NAME="_06_letters_only Coverage Results" MODIFIED="1731903756066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5_errors" />
-    <SUITE FILE_PATH="coverage/python2024$_03_else_finally.coverage" NAME="_03_else_finally Coverage Results" MODIFIED="1731848852076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5_errors" />
-    <SUITE FILE_PATH="coverage/Python2024$_5_dataTypes.coverage" NAME="_5_dataTypes Coverage Results" MODIFIED="1731738952780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_PythonBasics" />
-    <SUITE FILE_PATH="coverage/python2024$_8_floats.coverage" NAME="_8_floats Coverage Results" MODIFIED="1731745223191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_11_comparison_operators.coverage" NAME="_11_comparison_operators Coverage Results" MODIFIED="1731746050550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
-    <SUITE FILE_PATH="coverage/python2024$_01_user_input.coverage" NAME="_01_user_input Coverage Results" MODIFIED="1731843672513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5_errors" />
+    <SUITE FILE_PATH="coverage/python2024$_8_floats.coverage" NAME="_8_floats Coverage Results" MODIFIED="1731745223191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/Python2024$_5_dataTypes.coverage" NAME="_5_dataTypes Coverage Results" MODIFIED="1731738952780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_PythonBasics" />
     <SUITE FILE_PATH="coverage/python2024$_02_try_except.coverage" NAME="_02_try_except Coverage Results" MODIFIED="1731848273819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5_errors" />
-    <SUITE FILE_PATH="coverage/python2024$_16_booleans.coverage" NAME="_16_booleans Coverage Results" MODIFIED="1731747261465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_17_lists.coverage" NAME="_17_lists Coverage Results" MODIFIED="1731768778974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
-    <SUITE FILE_PATH="coverage/Python2024$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1731736714129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonBasics" />
-    <SUITE FILE_PATH="coverage/python2024$_9_arithmetic_operators.coverage" NAME="_9_arithmetic_operators Coverage Results" MODIFIED="1731745416986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
-    <SUITE FILE_PATH="coverage/python2024$_04_return.coverage" NAME="_04_return Coverage Results" MODIFIED="1731832924818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_4_functions" />
+    <SUITE FILE_PATH="coverage/python2024$_02_slicing.coverage" NAME="_02_slicing Coverage Results" MODIFIED="1731943540291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_8_lists" />
     <SUITE FILE_PATH="coverage/python2024$_7_integers.coverage" NAME="_7_integers Coverage Results" MODIFIED="1731745068992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
-    <SUITE FILE_PATH="coverage/python2024$_15_simple_adder.coverage" NAME="_15_simple_adder Coverage Results" MODIFIED="1731747033197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_22_none.coverage" NAME="_22_none Coverage Results" MODIFIED="1731769719697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_6_type_hints.coverage" NAME="_6_type_hints Coverage Results" MODIFIED="1731740277226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
-    <SUITE FILE_PATH="coverage/python2024$_07_rock_paper_scissor.coverage" NAME="_07_rock_paper_scissor Coverage Results" MODIFIED="1731822735367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
-    <SUITE FILE_PATH="coverage/python2024$_05_recursion.coverage" NAME="_05_recursion Coverage Results" MODIFIED="1731833643124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_4_functions" />
     <SUITE FILE_PATH="coverage/python2024$_23_mad_libs.coverage" NAME="_23_mad_libs Coverage Results" MODIFIED="1731771083131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_02_if_else.coverage" NAME="_02_if_else Coverage Results" MODIFIED="1731816990139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
     <SUITE FILE_PATH="coverage/python2024$_01_modules.coverage" NAME="_01_modules Coverage Results" MODIFIED="1731904463774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_6_modules" />
-    <SUITE FILE_PATH="coverage/python2024$_19_sets.coverage" NAME="_19_sets Coverage Results" MODIFIED="1731768976770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_12_logical_operators.coverage" NAME="_12_logical_operators Coverage Results" MODIFIED="1731746184255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_20_frozen_sets.coverage" NAME="_20_frozen_sets Coverage Results" MODIFIED="1731769045560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_02_comparing_floats.coverage" NAME="_02_comparing_floats Coverage Results" MODIFIED="1731923488600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_10_assignment_operators.coverage" NAME="_10_assignment_operators Coverage Results" MODIFIED="1731745559509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_13_strings.coverage" NAME="_13_strings Coverage Results" MODIFIED="1731746482964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
-    <SUITE FILE_PATH="coverage/python2024$_04_raise.coverage" NAME="_04_raise Coverage Results" MODIFIED="1731848915929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5_errors" />
-    <SUITE FILE_PATH="coverage/python2024$_03_scopes.coverage" NAME="_03_scopes Coverage Results" MODIFIED="1731925093824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_03_scopes.coverage" NAME="_03_scopes Coverage Results" MODIFIED="1731925516747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_7_python_basics" />
     <SUITE FILE_PATH="coverage/python2024$_03_parameters_arguments.coverage" NAME="_03_parameters_arguments Coverage Results" MODIFIED="1731832910836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_4_functions" />
     <SUITE FILE_PATH="coverage/Python2024$main.coverage" NAME="main Coverage Results" MODIFIED="1731736709099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python2024$_4_constants.coverage" NAME="_4_constants Coverage Results" MODIFIED="1731738714975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_PythonBasics" />
-    <SUITE FILE_PATH="coverage/Python2024$_1_syntax__1_.coverage" NAME="_1_syntax (1) Coverage Results" MODIFIED="1731737460137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_PythonBasics" />
-    <SUITE FILE_PATH="coverage/python2024$_06_loop_else.coverage" NAME="_06_loop_else Coverage Results" MODIFIED="1731820385134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
     <SUITE FILE_PATH="coverage/python2024$_03_for_loop.coverage" NAME="_03_for_loop Coverage Results" MODIFIED="1731818470149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
     <SUITE FILE_PATH="coverage/python2024$_05_unknown_errors.coverage" NAME="_05_unknown_errors Coverage Results" MODIFIED="1731903263335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5_errors" />
     <SUITE FILE_PATH="coverage/python2024$_01_creating_a_function.coverage" NAME="_01_creating_a_function Coverage Results" MODIFIED="1731823384360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_4_functions" />
+    <SUITE FILE_PATH="coverage/python2024$_21_dictionaries.coverage" NAME="_21_dictionaries Coverage Results" MODIFIED="1731769321731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_08_chat_bot.coverage" NAME="_08_chat_bot Coverage Results" MODIFIED="1731838651155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_4_functions" />
+    <SUITE FILE_PATH="coverage/python2024$_04_while_loop.coverage" NAME="_04_while_loop Coverage Results" MODIFIED="1731818982020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
+    <SUITE FILE_PATH="coverage/Python2024$_3_variables.coverage" NAME="_3_variables Coverage Results" MODIFIED="1731737633636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_PythonBasics" />
+    <SUITE FILE_PATH="coverage/python2024$_01_if_elif_else.coverage" NAME="_01_if_elif_else Coverage Results" MODIFIED="1731814260386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
+    <SUITE FILE_PATH="coverage/python2024$_14_type_conversion.coverage" NAME="_14_type_conversion Coverage Results" MODIFIED="1731746822822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_03_else_finally.coverage" NAME="_03_else_finally Coverage Results" MODIFIED="1731848852076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5_errors" />
+    <SUITE FILE_PATH="coverage/python2024$_01_user_input.coverage" NAME="_01_user_input Coverage Results" MODIFIED="1731843672513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5_errors" />
+    <SUITE FILE_PATH="coverage/python2024$_16_booleans.coverage" NAME="_16_booleans Coverage Results" MODIFIED="1731747261465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/Python2024$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1731736714129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonBasics" />
+    <SUITE FILE_PATH="coverage/python2024$_9_arithmetic_operators.coverage" NAME="_9_arithmetic_operators Coverage Results" MODIFIED="1731745416986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_04_return.coverage" NAME="_04_return Coverage Results" MODIFIED="1731832924818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_4_functions" />
+    <SUITE FILE_PATH="coverage/python2024$_15_simple_adder.coverage" NAME="_15_simple_adder Coverage Results" MODIFIED="1731747033197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_07_rock_paper_scissor.coverage" NAME="_07_rock_paper_scissor Coverage Results" MODIFIED="1731822735367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
+    <SUITE FILE_PATH="coverage/python2024$_05_recursion.coverage" NAME="_05_recursion Coverage Results" MODIFIED="1731833643124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_4_functions" />
+    <SUITE FILE_PATH="coverage/python2024$_19_sets.coverage" NAME="_19_sets Coverage Results" MODIFIED="1731768976770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_python_basics" />
+    <SUITE FILE_PATH="coverage/python2024$_04_raise.coverage" NAME="_04_raise Coverage Results" MODIFIED="1731848915929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_5_errors" />
+    <SUITE FILE_PATH="coverage/Python2024$_1_syntax__1_.coverage" NAME="_1_syntax (1) Coverage Results" MODIFIED="1731737460137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_2_PythonBasics" />
+    <SUITE FILE_PATH="coverage/python2024$_06_loop_else.coverage" NAME="_06_loop_else Coverage Results" MODIFIED="1731820385134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_3_control_and_flow" />
     <SUITE FILE_PATH="coverage/python2024$_03_website_status.coverage" NAME="_03_website_status Coverage Results" MODIFIED="1731910350979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_6_modules" />
   </component>
 </project>
