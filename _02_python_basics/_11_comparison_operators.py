@@ -11,4 +11,4 @@ print(a < b)  # True
 print(c >= d)  # True
 print(a <= b)  # True
 
-print(b > a > c)
+print(b > a > c) # this(b>a) and this(a>c)
