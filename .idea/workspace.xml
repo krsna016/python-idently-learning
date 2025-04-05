@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Refactor workspace XML and update run configurations&#10;&#10;Reorganized run configurations and improved comments for clarity in the workspace XML. Added new scripts demonstrating list comprehensions, slicing, and grocery list examples while removing outdated references. Enhanced Git settings with rebase update type." />
+    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Refactor workspace XML and update run configurations&#10;&#10;Reorganized run configurations and improved comments for clarity in the workspace XML. Added new scripts demonstrating list comprehensions, slicing, and grocery list examples while removing outdated references. Enhanced Git settings with rebase update type.">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_control_and_flow/_04_while_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/_03_control_and_flow/_04_while_loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_functions/_07_slash_asterisk_and_special.py" beforeDir="false" afterPath="$PROJECT_DIR$/_04_functions/_07_slash_asterisk_and_special.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06_modules/_01_modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/_06_modules/_01_modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_python_basics/_02_comparing_floats.py" beforeDir="false" afterPath="$PROJECT_DIR$/_07_python_basics/_02_comparing_floats.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,8 +138,8 @@
       <recent name="$PROJECT_DIR$/PythonIntroduction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._06_name_mangling">
-    <configuration name="_02_super" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python._01_modules">
+    <configuration name="_01_modules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,12 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_10_oops_continued" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_06_modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_10_oops_continued/_02_super.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_06_modules/_01_modules.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._01_modules" />
         <item itemvalue="Python._06_name_mangling" />
         <item itemvalue="Python._05_abstract_method" />
         <item itemvalue="Python._04_class_methods" />
         <item itemvalue="Python._03_static_methods" />
-        <item itemvalue="Python._02_super" />
       </list>
     </recent_temporary>
   </component>

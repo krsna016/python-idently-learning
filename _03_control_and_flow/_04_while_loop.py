@@ -10,13 +10,13 @@ while True:
     print(i)
     i += 1
 
-    connected: bool = True
-    while connected:
-        """
-        This while loop prints "Using Internet..." every 5 seconds and sets
-        `connected` to False after the first iteration, ending the loop.
-        """
-        print("Using Internet...")
-        time.sleep(5)
-        connected = False
-    print("Connection ended...")
+connected: bool = True
+while connected:
+    """
+    This while loop prints "Using Internet..." every 5 seconds and sets
+    `connected` to False after the first iteration, ending the loop.
+    """
+    print("Using Internet...")
+    time.sleep(5)
+    connected = False
+print("Connection ended...")
