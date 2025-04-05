@@ -3,7 +3,7 @@ x = x + 2  # or x += 2
 print(x)
 x -= 2
 print(x)
-# Similarly
+# Similarly we can do
 x *= 2
 print(x)
 x /= 2
