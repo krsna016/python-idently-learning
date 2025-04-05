@@ -25,10 +25,8 @@ def example_func(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
 def func(a, b, /):
     print(a, b)
 
-
 # ✅ Valid call:
 func(1, 2)
-
 
 # ❌ Invalid call:
 # func(a=1, b=2)  # Error: a and b must be positional
@@ -45,10 +43,8 @@ func(1, 2)
 def func(*, x, y):
     print(x, y)
 
-
 # ✅ Valid call:
 func(x=10, y=20)
-
 
 # ❌ Invalid call:
 # func(10, 20)  # Error: x and y must be keyword arguments
@@ -65,10 +61,8 @@ func(x=10, y=20)
 def introduce(name, age, /, city, *, hobby="Reading"):
     print(f"My name is {name}, I am {age}, from {city}, I love {hobby}.")
 
-
 # ✅ Valid:
 introduce("Aria", 10, "London", hobby="Dancing")
-
 
 # ❌ Invalid:
 # introduce(name="Aria", age=10, city="London")  # name and age must be positional
@@ -82,10 +76,8 @@ introduce("Aria", 10, "London", hobby="Dancing")
 def plot(x, y, /, color="blue", *, grid=True, title="My Plot"):
     print("Plotting with:", x, y, color, grid, title)
 
-
 # ✅ Proper usage:
 plot([1, 2, 3], [4, 5, 6], color="red", grid=False, title="Test Plot")
-
 
 # ❌ Incorrect usage:
 # plot(x=[1, 2], y=[3, 4])  # Error: x and y must be positional
@@ -99,7 +91,6 @@ plot([1, 2, 3], [4, 5, 6], color="red", grid=False, title="Test Plot")
 def book_ticket(name, age, /, destination, date="Today", *, seat="Window", meal="Veg"):
     print(f"Name: {name}, Age: {age}, Going to: {destination}, Date: {date}")
     print(f"Seat: {seat}, Meal: {meal}")
-
 
 # ✅ Example call:
 book_ticket("Ravi", 20, "Delhi", seat="Aisle", meal="Non-Veg")

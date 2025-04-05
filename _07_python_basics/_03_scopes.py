@@ -41,23 +41,19 @@ Built-in Scope : Names preassigned in Python. These include functions like `prin
 scope.
 """
 
-var: int = 10
+# var: int = 10
+# def outer_func() -> None:
+#     global var
+#     var = 100
+#     print(var)
+#     def inner_func() -> None:
+#         inner_var: int = 1
+#         print(var)
+# outer_func()
+# print(var)
 
 
-def outer_func() -> None:
-    global var
-    var = 100
-    print(var)
 
-    def inner_func() -> None:
-        inner_var: int = 1
-        print(var)
-
-
-outer_func()
-print(var)
-
-#
 # def outer_func() -> None:
 #     name: str = ''
 #     value: int = 0
