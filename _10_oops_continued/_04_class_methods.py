@@ -1,6 +1,5 @@
 from typing import Self
 
-
 class Car:
     LIMITER: int = 200
 
