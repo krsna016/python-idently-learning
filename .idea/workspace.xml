@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Refactor workspace XML and update run configurations&#10;&#10;Reorganized run configurations and improved comments for clarity in the workspace XML. Added new scripts demonstrating list comprehensions, slicing, and grocery list examples while removing outdated references. Enhanced Git settings with rebase update type.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_04_functions/_07_slash_asterisk_and_special.py" beforeDir="false" afterPath="$PROJECT_DIR$/_04_functions/_07_slash_asterisk_and_special.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_07_python_basics/_03_scopes.py" beforeDir="false" afterPath="$PROJECT_DIR$/_07_python_basics/_03_scopes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
