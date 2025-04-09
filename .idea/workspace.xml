@@ -5,8 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Refactor workspace XML and update run configurations&#10;&#10;Reorganized run configurations and improved comments for clarity in the workspace XML. Added new scripts demonstrating list comprehensions, slicing, and grocery list examples while removing outdated references. Enhanced Git settings with rebase update type.">
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_01_print.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_02_enumerate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_03_round.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_04_ranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_05_slice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_06_globals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_07_locals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_08_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_09_any.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_10_isinstance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_11_chatbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_01_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_02_callable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_04_sorted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_05_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_06_exec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_07_zip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_10_oops_continued/_04_class_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/_10_oops_continued/_04_class_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_01_syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_01_syntax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_02_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_02_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_03_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_03_variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_04_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_04_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_05_data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_05_data_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_06_type_hints.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_06_type_hints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_07_integers.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_07_integers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_08_floats.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_08_floats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_09_arithmetic_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_09_arithmetic_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_10_assignment_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_10_assignment_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_11_comparison_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_11_comparison_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_12_logical_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_12_logical_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_13_strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_13_strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_14_type_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_14_type_conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_15_simple_adder.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_15_simple_adder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_16_booleans.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_16_booleans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_17_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_17_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_18_tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_18_tuples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_19_sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_19_sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_20_frozen_sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_20_frozen_sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_21_dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_21_dictionaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_22_none.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_22_none.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_python_basics/_23_mad_libs.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_23_mad_libs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_python_basics/_01_truthy_and_falsy.py" beforeDir="false" afterPath="$PROJECT_DIR$/_07_python_basics_2/_01_truthy_and_falsy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_python_basics/_02_comparing_floats.py" beforeDir="false" afterPath="$PROJECT_DIR$/_07_python_basics_2/_02_comparing_floats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07_python_basics/_03_scopes.py" beforeDir="false" afterPath="$PROJECT_DIR$/_07_python_basics_2/_03_scopes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_11_build_in_functions/_01_print.py" beforeDir="false" afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_03_map.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +117,7 @@
     &quot;Python._03_website_status.executor&quot;: &quot;Run&quot;,
     &quot;Python._04_class_methods.executor&quot;: &quot;Run&quot;,
     &quot;Python._04_raise.executor&quot;: &quot;Run&quot;,
+    &quot;Python._04_ranges.executor&quot;: &quot;Debug&quot;,
     &quot;Python._04_return.executor&quot;: &quot;Run&quot;,
     &quot;Python._04_while_loop.executor&quot;: &quot;Run&quot;,
     &quot;Python._05_abstract_method.executor&quot;: &quot;Run&quot;,
@@ -123,7 +167,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -134,7 +178,7 @@
       <recent name="$PROJECT_DIR$/PythonIntroduction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._01_modules">
+  <component name="RunManager" selected="Python._04_ranges">
     <configuration name="_01_modules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
@@ -149,29 +193,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_06_modules/_01_modules.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_03_static_methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_10_oops_continued" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_10_oops_continued/_03_static_methods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,6 +218,28 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_10_oops_continued/_04_class_methods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_04_ranges" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_11_build_in_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_11_build_in_functions/_04_ranges.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -251,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._04_ranges" />
         <item itemvalue="Python._01_modules" />
         <item itemvalue="Python._06_name_mangling" />
         <item itemvalue="Python._05_abstract_method" />
         <item itemvalue="Python._04_class_methods" />
-        <item itemvalue="Python._03_static_methods" />
       </list>
     </recent_temporary>
   </component>
