@@ -4,52 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Refactor workspace XML and update run configurations&#10;&#10;Reorganized run configurations and improved comments for clarity in the workspace XML. Added new scripts demonstrating list comprehensions, slicing, and grocery list examples while removing outdated references. Enhanced Git settings with rebase update type.">
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_01_print.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_02_enumerate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_03_round.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_04_ranges.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_05_slice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_06_globals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_07_locals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_08_all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_09_any.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_10_isinstance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_build_in_functions_1/_11_chatbot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_01_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_02_callable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_04_sorted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_05_eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_06_exec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_07_zip.py" afterDir="false" />
+    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/_13_python_basics_3/_02_fstrings_rstrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_python_basics_3/_03_assertions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_python_basics_3/_04_multiple_assignment_and_unpacking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_python_basics_3/_05_==_vs_is.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_dataclasses/_01_@dataclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_dataclasses/_02_fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_dataclasses/_03_post_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_dataclasses/_04_init_var.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_dataclasses/_05_@property.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_dataclasses/_06_notes_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_dataclasses/_07_notes_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_async_IO/_01_intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_async_IO/_02_getting_started.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_async_IO/_03_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_async_IO/_04_gather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_async_IO/_05_website_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16_python_advance_1/_01_mypy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16_python_advance_1/_02_walrus_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18_file_handling/_01_intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18_file_handling/_02_reading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18_file_handling/_03_appending.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18_file_handling/_04_writing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18_file_handling/_05_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18_file_handling/_06_notepad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19_conclusion/_01_whats_next?.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19_conclusion/_02_reading_documentations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_01_syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_01_syntax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_02_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_02_comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_03_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_03_variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_04_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_04_constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_05_data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_05_data_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_06_type_hints.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_06_type_hints.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_07_integers.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_07_integers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_08_floats.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_08_floats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_09_arithmetic_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_09_arithmetic_operators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_10_assignment_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_10_assignment_operators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_11_comparison_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_11_comparison_operators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_12_logical_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_12_logical_operators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_13_strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_13_strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_14_type_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_14_type_conversion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_15_simple_adder.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_15_simple_adder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_16_booleans.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_16_booleans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_17_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_17_lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_18_tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_18_tuples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_19_sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_19_sets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_20_frozen_sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_20_frozen_sets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_21_dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_21_dictionaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_22_none.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_22_none.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02_python_basics/_23_mad_libs.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02_python_basics_1/_23_mad_libs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_07_python_basics/_01_truthy_and_falsy.py" beforeDir="false" afterPath="$PROJECT_DIR$/_07_python_basics_2/_01_truthy_and_falsy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_07_python_basics/_02_comparing_floats.py" beforeDir="false" afterPath="$PROJECT_DIR$/_07_python_basics_2/_02_comparing_floats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_07_python_basics/_03_scopes.py" beforeDir="false" afterPath="$PROJECT_DIR$/_07_python_basics_2/_03_scopes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_11_build_in_functions/_01_print.py" beforeDir="false" afterPath="$PROJECT_DIR$/_12_build_in_functions_2/_03_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_13_python_basics_3/_01_docstrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/_13_python_basics_3/_01_docstrings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,87 +75,88 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python._01_classes_objects.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_creating_a_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_if_elif_else.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_list_comprehension.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_modules.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_truthy_and_falsy.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_user_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_comparing_floats.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_if_else.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_slicing.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_super.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_try_except.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_else_finally.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_for_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_grocery_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_parameters_arguments.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_scopes.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_self.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_static_methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_website_status.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_class_methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_raise.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_ranges.executor&quot;: &quot;Debug&quot;,
-    &quot;Python._04_return.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_while_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_abstract_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_break_and_continue.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_dunder_methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_recursion.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_unknown_errors.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_args_kwargs.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_letters_only.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_loop_else.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_name_mangling.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_str_and_repr.executor&quot;: &quot;Run&quot;,
-    &quot;Python._07_rock_paper_scissor.executor&quot;: &quot;Run&quot;,
-    &quot;Python._08_chat_bot.executor&quot;: &quot;Run&quot;,
-    &quot;Python._10_assignment_operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python._10_eq_dunder_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python._11_comparison_operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python._12_chat_bot.executor&quot;: &quot;Run&quot;,
-    &quot;Python._12_logical_operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python._13_strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python._14_type_conversion.executor&quot;: &quot;Run&quot;,
-    &quot;Python._15_simple_adder.executor&quot;: &quot;Run&quot;,
-    &quot;Python._16_booleans.executor&quot;: &quot;Run&quot;,
-    &quot;Python._17_lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python._19_sets.executor&quot;: &quot;Run&quot;,
-    &quot;Python._1_syntax (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python._1_syntax.executor&quot;: &quot;Run&quot;,
-    &quot;Python._20_frozen_sets.executor&quot;: &quot;Run&quot;,
-    &quot;Python._21_dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python._22_none.executor&quot;: &quot;Run&quot;,
-    &quot;Python._23_mad_libs.executor&quot;: &quot;Run&quot;,
-    &quot;Python._3_variables.executor&quot;: &quot;Run&quot;,
-    &quot;Python._4_constants.executor&quot;: &quot;Run&quot;,
-    &quot;Python._5_dataTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Python._6_type_hints.executor&quot;: &quot;Run&quot;,
-    &quot;Python._7_integers.executor&quot;: &quot;Run&quot;,
-    &quot;Python._8_floats.executor&quot;: &quot;Run&quot;,
-    &quot;Python._9_arithmetic_operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anurag/Desktop/python-idently-learning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python._01_classes_objects.executor": "Run",
+    "Python._01_creating_a_function.executor": "Run",
+    "Python._01_if_elif_else.executor": "Run",
+    "Python._01_inheritance.executor": "Run",
+    "Python._01_list_comprehension.executor": "Run",
+    "Python._01_modules.executor": "Run",
+    "Python._01_truthy_and_falsy.executor": "Run",
+    "Python._01_user_input.executor": "Run",
+    "Python._02_comparing_floats.executor": "Run",
+    "Python._02_if_else.executor": "Run",
+    "Python._02_slicing.executor": "Run",
+    "Python._02_super.executor": "Run",
+    "Python._02_try_except.executor": "Run",
+    "Python._03_else_finally.executor": "Run",
+    "Python._03_for_loop.executor": "Run",
+    "Python._03_grocery_list.executor": "Run",
+    "Python._03_parameters_arguments.executor": "Run",
+    "Python._03_scopes.executor": "Run",
+    "Python._03_self.executor": "Run",
+    "Python._03_static_methods.executor": "Run",
+    "Python._03_website_status.executor": "Run",
+    "Python._04_class_methods.executor": "Run",
+    "Python._04_raise.executor": "Run",
+    "Python._04_ranges.executor": "Debug",
+    "Python._04_return.executor": "Run",
+    "Python._04_while_loop.executor": "Run",
+    "Python._05_abstract_method.executor": "Run",
+    "Python._05_break_and_continue.executor": "Run",
+    "Python._05_dunder_methods.executor": "Run",
+    "Python._05_recursion.executor": "Run",
+    "Python._05_unknown_errors.executor": "Run",
+    "Python._06_args_kwargs.executor": "Run",
+    "Python._06_letters_only.executor": "Run",
+    "Python._06_loop_else.executor": "Run",
+    "Python._06_name_mangling.executor": "Run",
+    "Python._06_str_and_repr.executor": "Run",
+    "Python._07_rock_paper_scissor.executor": "Run",
+    "Python._08_chat_bot.executor": "Run",
+    "Python._10_assignment_operators.executor": "Run",
+    "Python._10_eq_dunder_method.executor": "Run",
+    "Python._11_comparison_operators.executor": "Run",
+    "Python._12_chat_bot.executor": "Run",
+    "Python._12_logical_operators.executor": "Run",
+    "Python._13_strings.executor": "Run",
+    "Python._14_type_conversion.executor": "Run",
+    "Python._15_simple_adder.executor": "Run",
+    "Python._16_booleans.executor": "Run",
+    "Python._17_lists.executor": "Run",
+    "Python._19_sets.executor": "Run",
+    "Python._1_syntax (1).executor": "Run",
+    "Python._1_syntax.executor": "Run",
+    "Python._20_frozen_sets.executor": "Run",
+    "Python._21_dictionaries.executor": "Run",
+    "Python._22_none.executor": "Run",
+    "Python._23_mad_libs.executor": "Run",
+    "Python._3_variables.executor": "Run",
+    "Python._4_constants.executor": "Run",
+    "Python._5_dataTypes.executor": "Run",
+    "Python._6_type_hints.executor": "Run",
+    "Python._7_integers.executor": "Run",
+    "Python._8_floats.executor": "Run",
+    "Python._9_arithmetic_operators.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/anurag/Desktop/python-idently-learning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_13_python_basics_3" />
       <recent name="$PROJECT_DIR$/_5_errors" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/PythonIntroduction" />
@@ -412,7 +396,8 @@
     <MESSAGE value="Add 'Mad Libs' script and update workspace settings.&#10;&#10;Introduced a new Python script for creating a 'Mad Libs' story. Additionally, updated various IDE workspace settings and reorganized script naming conventions for better clarity." />
     <MESSAGE value="Add comprehensive Python examples covering functions and errors&#10;&#10;Introduced various Python scripts demonstrating the use of args/kwargs, special parameters, chat bot functionality, user input handling, and different error handling techniques. Additionally, added examples on truthy/falsy values, comparing floats, and understanding variable scopes." />
     <MESSAGE value="Refactor workspace XML and update run configurations&#10;&#10;Reorganized run configurations and improved comments for clarity in the workspace XML. Added new scripts demonstrating list comprehensions, slicing, and grocery list examples while removing outdated references. Enhanced Git settings with rebase update type." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor workspace XML and update run configurations&#10;&#10;Reorganized run configurations and improved comments for clarity in the workspace XML. Added new scripts demonstrating list comprehensions, slicing, and grocery list examples while removing outdated references. Enhanced Git settings with rebase update type." />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
