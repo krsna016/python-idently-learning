@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Added Python Advance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_06_decorators_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_06_decorators_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_07_decorators_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_07_decorators_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_08_enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_08_enums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_python_advance_2/_01_memoization.py" beforeDir="false" afterPath="$PROJECT_DIR$/_17_python_advance_2/_01_memoization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_python_advance_2/_02_@cached_property.py" beforeDir="false" afterPath="$PROJECT_DIR$/_17_python_advance_2/_02_@cached_property.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_python_advance_2/_03_patching.py" beforeDir="false" afterPath="$PROJECT_DIR$/_17_python_advance_2/_03_monkey_patching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_17_python_advance_2/_04_timming_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/_17_python_advance_2/_04_timing_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +59,11 @@
     "Python._01_if_elif_else.executor": "Run",
     "Python._01_inheritance.executor": "Run",
     "Python._01_list_comprehension.executor": "Run",
+    "Python._01_memoization.executor": "Run",
     "Python._01_modules.executor": "Run",
     "Python._01_truthy_and_falsy.executor": "Run",
     "Python._01_user_input.executor": "Run",
+    "Python._02_@cached_property.executor": "Run",
     "Python._02_comparing_floats.executor": "Run",
     "Python._02_if_else.executor": "Run",
     "Python._02_slicing.executor": "Run",
@@ -70,6 +73,7 @@
     "Python._03_else_finally.executor": "Run",
     "Python._03_for_loop.executor": "Run",
     "Python._03_grocery_list.executor": "Run",
+    "Python._03_monkey_patching.executor": "Run",
     "Python._03_parameters_arguments.executor": "Run",
     "Python._03_scopes.executor": "Run",
     "Python._03_self.executor": "Run",
@@ -79,6 +83,7 @@
     "Python._04_raise.executor": "Run",
     "Python._04_ranges.executor": "Run",
     "Python._04_return.executor": "Run",
+    "Python._04_timing_code.executor": "Run",
     "Python._04_while_loop.executor": "Run",
     "Python._05_abstract_method.executor": "Run",
     "Python._05_break_and_continue.executor": "Run",
@@ -130,7 +135,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "settings.editor.selected.configurable": "editing.templates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -143,8 +148,8 @@
       <recent name="$PROJECT_DIR$/PythonIntroduction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._07_decorators_2">
-    <configuration name="_02_walrus_operator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python._04_timing_code">
+    <configuration name="_01_memoization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_16_python_advance_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_17_python_advance_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_16_python_advance_1/_02_walrus_operator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_17_python_advance_2/_01_memoization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_06_decorators_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_02_@cached_property" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_16_python_advance_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_17_python_advance_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_16_python_advance_1/_06_decorators_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_17_python_advance_2/_02_@cached_property.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_06_notepad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_03_monkey_patching" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,11 +202,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_18_file_handling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_17_python_advance_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_18_file_handling/_06_notepad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_17_python_advance_2/_03_monkey_patching.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_04_timing_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_17_python_advance_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_17_python_advance_2/_04_timing_code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,10 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._04_timing_code" />
+        <item itemvalue="Python._03_monkey_patching" />
+        <item itemvalue="Python._02_@cached_property" />
+        <item itemvalue="Python._01_memoization" />
         <item itemvalue="Python._07_decorators_2" />
-        <item itemvalue="Python._06_decorators_1" />
-        <item itemvalue="Python._02_walrus_operator" />
-        <item itemvalue="Python._06_notepad" />
       </list>
     </recent_temporary>
   </component>
