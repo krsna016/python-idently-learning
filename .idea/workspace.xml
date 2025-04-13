@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python2024.iml" afterDir="false" />
+    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Added Python Advance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_01_mypy.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_01_mypy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_02_walrus_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_02_walrus_operator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_03_lambda_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_03_lambda_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_04_generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_04_generators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_05_match_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_05_match_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_18_file_handling/_06_notepad.py" beforeDir="false" afterPath="$PROJECT_DIR$/_18_file_handling/_06_notepad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_06_decorators_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_06_decorators_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_07_decorators_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_07_decorators_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_16_python_advance_1/_08_enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/_16_python_advance_1/_08_enums.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +86,13 @@
     "Python._05_recursion.executor": "Run",
     "Python._05_unknown_errors.executor": "Run",
     "Python._06_args_kwargs.executor": "Run",
+    "Python._06_decorators_1.executor": "Run",
     "Python._06_letters_only.executor": "Run",
     "Python._06_loop_else.executor": "Run",
     "Python._06_name_mangling.executor": "Run",
     "Python._06_notepad.executor": "Run",
     "Python._06_str_and_repr.executor": "Run",
+    "Python._07_decorators_2.executor": "Run",
     "Python._07_rock_paper_scissor.executor": "Run",
     "Python._08_chat_bot.executor": "Run",
     "Python._10_assignment_operators.executor": "Run",
@@ -133,7 +130,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -146,7 +143,7 @@
       <recent name="$PROJECT_DIR$/PythonIntroduction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._02_walrus_operator">
+  <component name="RunManager" selected="Python._07_decorators_2">
     <configuration name="_02_walrus_operator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
@@ -161,6 +158,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_16_python_advance_1/_02_walrus_operator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_06_decorators_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_16_python_advance_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_16_python_advance_1/_06_decorators_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,8 +210,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="_07_decorators_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_16_python_advance_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_16_python_advance_1/_07_decorators_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._07_decorators_2" />
+        <item itemvalue="Python._06_decorators_1" />
         <item itemvalue="Python._02_walrus_operator" />
         <item itemvalue="Python._06_notepad" />
       </list>
@@ -310,7 +353,8 @@
     <MESSAGE value="Refactor workspace XML and update run configurations&#10;&#10;Reorganized run configurations and improved comments for clarity in the workspace XML. Added new scripts demonstrating list comprehensions, slicing, and grocery list examples while removing outdated references. Enhanced Git settings with rebase update type." />
     <MESSAGE value="Commit" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added Python Advance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Python Advance" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
