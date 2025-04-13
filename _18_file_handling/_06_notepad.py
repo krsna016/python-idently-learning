@@ -19,6 +19,8 @@ class Notepad:
         with open(self._file_name, 'w') as note:
             note.write(user_input)
 
+        print("Bot : Note successfully created...")
+
     def _display_note(self) -> None:
         try:
             with open(self._file_name, 'r') as note:
