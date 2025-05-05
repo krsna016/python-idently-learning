@@ -10,8 +10,8 @@ greet()
 
 
 def show_date_time():
-    time: datetime = datetime.datetime.now().time()
-    date: datetime = datetime.datetime.now().date()
+    time: datetime = datetime.datetime.now().time()  # type: ignore
+    date: datetime = datetime.datetime.now().date()  # type: ignore
     print(f"Time : {time:%H:%M:%S}")
     print(f"Date : {date:%d-%m-%y}")
 

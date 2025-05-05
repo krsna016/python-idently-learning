@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Readme Updated" />
+    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Readme Updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_functions/_01_creating_a_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/_04_functions/_01_creating_a_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_01_@dataclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/_14_dataclasses/_01_@dataclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_02_fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/_14_dataclasses/_02_fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_03_post_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/_14_dataclasses/_03_post_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_04_init_var.py" beforeDir="false" afterPath="$PROJECT_DIR$/_14_dataclasses/_04_init_var.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,98 +48,100 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ouojFxS4sKJnB2MhgGWFZQ0Oo4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python._01_classes_objects.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_creating_a_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_if_elif_else.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_list_comprehension.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_memoization.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_modules.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_truthy_and_falsy.executor&quot;: &quot;Run&quot;,
-    &quot;Python._01_user_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_@cached_property.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_comparing_floats.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_if_else.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_slicing.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_super.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_try_except.executor&quot;: &quot;Run&quot;,
-    &quot;Python._02_walrus_operator.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_else_finally.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_for_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_grocery_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_monkey_patching.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_parameters_arguments.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_scopes.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_self.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_static_methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python._03_website_status.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_class_methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_raise.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_ranges.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_return.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_timing_code.executor&quot;: &quot;Run&quot;,
-    &quot;Python._04_while_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_abstract_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_break_and_continue.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_dunder_methods.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_recursion.executor&quot;: &quot;Run&quot;,
-    &quot;Python._05_unknown_errors.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_args_kwargs.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_decorators_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_letters_only.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_loop_else.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_name_mangling.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_notepad.executor&quot;: &quot;Run&quot;,
-    &quot;Python._06_str_and_repr.executor&quot;: &quot;Run&quot;,
-    &quot;Python._07_decorators_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python._07_rock_paper_scissor.executor&quot;: &quot;Run&quot;,
-    &quot;Python._08_chat_bot.executor&quot;: &quot;Run&quot;,
-    &quot;Python._10_assignment_operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python._10_eq_dunder_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python._11_comparison_operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python._12_chat_bot.executor&quot;: &quot;Run&quot;,
-    &quot;Python._12_logical_operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python._13_strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python._14_type_conversion.executor&quot;: &quot;Run&quot;,
-    &quot;Python._15_simple_adder.executor&quot;: &quot;Run&quot;,
-    &quot;Python._16_booleans.executor&quot;: &quot;Run&quot;,
-    &quot;Python._17_lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python._19_sets.executor&quot;: &quot;Run&quot;,
-    &quot;Python._1_syntax (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python._1_syntax.executor&quot;: &quot;Run&quot;,
-    &quot;Python._20_frozen_sets.executor&quot;: &quot;Run&quot;,
-    &quot;Python._21_dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python._22_none.executor&quot;: &quot;Run&quot;,
-    &quot;Python._23_mad_libs.executor&quot;: &quot;Run&quot;,
-    &quot;Python._3_variables.executor&quot;: &quot;Run&quot;,
-    &quot;Python._4_constants.executor&quot;: &quot;Run&quot;,
-    &quot;Python._5_dataTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Python._6_type_hints.executor&quot;: &quot;Run&quot;,
-    &quot;Python._7_integers.executor&quot;: &quot;Run&quot;,
-    &quot;Python._8_floats.executor&quot;: &quot;Run&quot;,
-    &quot;Python._9_arithmetic_operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anurag/Desktop/python-idently-learning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python._01_@dataclass.executor": "Run",
+    "Python._01_classes_objects.executor": "Run",
+    "Python._01_creating_a_function.executor": "Run",
+    "Python._01_if_elif_else.executor": "Run",
+    "Python._01_inheritance.executor": "Run",
+    "Python._01_list_comprehension.executor": "Run",
+    "Python._01_memoization.executor": "Run",
+    "Python._01_modules.executor": "Run",
+    "Python._01_truthy_and_falsy.executor": "Run",
+    "Python._01_user_input.executor": "Run",
+    "Python._02_@cached_property.executor": "Run",
+    "Python._02_comparing_floats.executor": "Run",
+    "Python._02_fields.executor": "Run",
+    "Python._02_if_else.executor": "Run",
+    "Python._02_slicing.executor": "Run",
+    "Python._02_super.executor": "Run",
+    "Python._02_try_except.executor": "Run",
+    "Python._02_walrus_operator.executor": "Run",
+    "Python._03_else_finally.executor": "Run",
+    "Python._03_for_loop.executor": "Run",
+    "Python._03_grocery_list.executor": "Run",
+    "Python._03_monkey_patching.executor": "Run",
+    "Python._03_parameters_arguments.executor": "Run",
+    "Python._03_post_init.executor": "Run",
+    "Python._03_scopes.executor": "Run",
+    "Python._03_self.executor": "Run",
+    "Python._03_static_methods.executor": "Run",
+    "Python._03_website_status.executor": "Run",
+    "Python._04_class_methods.executor": "Run",
+    "Python._04_raise.executor": "Run",
+    "Python._04_ranges.executor": "Run",
+    "Python._04_return.executor": "Run",
+    "Python._04_timing_code.executor": "Run",
+    "Python._04_while_loop.executor": "Run",
+    "Python._05_abstract_method.executor": "Run",
+    "Python._05_break_and_continue.executor": "Run",
+    "Python._05_dunder_methods.executor": "Run",
+    "Python._05_recursion.executor": "Run",
+    "Python._05_unknown_errors.executor": "Run",
+    "Python._06_args_kwargs.executor": "Run",
+    "Python._06_decorators_1.executor": "Run",
+    "Python._06_letters_only.executor": "Run",
+    "Python._06_loop_else.executor": "Run",
+    "Python._06_name_mangling.executor": "Run",
+    "Python._06_notepad.executor": "Run",
+    "Python._06_str_and_repr.executor": "Run",
+    "Python._07_decorators_2.executor": "Run",
+    "Python._07_rock_paper_scissor.executor": "Run",
+    "Python._08_chat_bot.executor": "Run",
+    "Python._10_assignment_operators.executor": "Run",
+    "Python._10_eq_dunder_method.executor": "Run",
+    "Python._11_comparison_operators.executor": "Run",
+    "Python._12_chat_bot.executor": "Run",
+    "Python._12_logical_operators.executor": "Run",
+    "Python._13_strings.executor": "Run",
+    "Python._14_type_conversion.executor": "Run",
+    "Python._15_simple_adder.executor": "Run",
+    "Python._16_booleans.executor": "Run",
+    "Python._17_lists.executor": "Run",
+    "Python._19_sets.executor": "Run",
+    "Python._1_syntax (1).executor": "Run",
+    "Python._1_syntax.executor": "Run",
+    "Python._20_frozen_sets.executor": "Run",
+    "Python._21_dictionaries.executor": "Run",
+    "Python._22_none.executor": "Run",
+    "Python._23_mad_libs.executor": "Run",
+    "Python._3_variables.executor": "Run",
+    "Python._4_constants.executor": "Run",
+    "Python._5_dataTypes.executor": "Run",
+    "Python._6_type_hints.executor": "Run",
+    "Python._7_integers.executor": "Run",
+    "Python._8_floats.executor": "Run",
+    "Python._9_arithmetic_operators.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/anurag/Desktop/python-idently-learning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_18_file_handling" />
@@ -142,8 +151,8 @@
       <recent name="$PROJECT_DIR$/PythonIntroduction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._04_timing_code">
-    <configuration name="_01_memoization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python._04_init_var">
+    <configuration name="_01_@dataclass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +161,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_17_python_advance_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_14_dataclasses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_17_python_advance_2/_01_memoization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_14_dataclasses/_01_@dataclass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_02_@cached_property" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_02_fields" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +183,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_17_python_advance_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_14_dataclasses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_17_python_advance_2/_02_@cached_property.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_14_dataclasses/_02_fields.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_03_monkey_patching" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_03_post_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,11 +205,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_17_python_advance_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_14_dataclasses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_17_python_advance_2/_03_monkey_patching.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_14_dataclasses/_03_post_init.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_04_init_var" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_14_dataclasses" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_14_dataclasses/_04_init_var.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,42 +262,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_07_decorators_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_16_python_advance_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_16_python_advance_1/_07_decorators_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._04_init_var" />
+        <item itemvalue="Python._03_post_init" />
+        <item itemvalue="Python._02_fields" />
+        <item itemvalue="Python._01_@dataclass" />
         <item itemvalue="Python._04_timing_code" />
-        <item itemvalue="Python._03_monkey_patching" />
-        <item itemvalue="Python._02_@cached_property" />
-        <item itemvalue="Python._01_memoization" />
-        <item itemvalue="Python._07_decorators_2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-f2b3473ffc3f-fab4200a9dfa-com.jetbrains.pycharm.ds.sharedIndexes.bundled-DS-243.25659.44" />
+        <option value="bundled-python-sdk-f7cd937e3587-99d813433b97-com.jetbrains.pycharm.ds.sharedIndexes.bundled-DS-251.23774.439" />
       </set>
     </attachedChunks>
   </component>
