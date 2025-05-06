@@ -12,6 +12,7 @@ async def check_status(url: str) -> dict[str, int | str]:
     end_time: datetime = datetime.now()
 
     return {
+        'website': url,
         'status': response.status_code,
         'start_time': f'{start_time:%H:%M:%S}',
         'end_time': f'{end_time:%H:%M:%S}'
