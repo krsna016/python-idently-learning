@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Readme Updated">
+    <list default="true" id="2ec16afe-c50e-47dd-ba20-c29666a9f31e" name="Changes" comment="Updated dataclasses">
+      <change afterPath="$PROJECT_DIR$/_14_dataclasses/_06_notes_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_04_functions/_01_creating_a_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/_04_functions/_01_creating_a_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_01_@dataclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/_14_dataclasses/_01_@dataclass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_02_fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/_14_dataclasses/_02_fields.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_03_post_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/_14_dataclasses/_03_post_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_04_init_var.py" beforeDir="false" afterPath="$PROJECT_DIR$/_14_dataclasses/_04_init_var.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_05_@property.py" beforeDir="false" afterPath="$PROJECT_DIR$/_14_dataclasses/_05_@property.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_06_notes_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_14_dataclasses/_07_notes_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_async_IO/_01_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/_15_async_IO/_01_intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_async_IO/_02_getting_started.py" beforeDir="false" afterPath="$PROJECT_DIR$/_15_async_IO/_02_getting_started.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_async_IO/_03_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/_15_async_IO/_03_tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_async_IO/_04_gather.py" beforeDir="false" afterPath="$PROJECT_DIR$/_15_async_IO/_04_gather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_15_async_IO/_05_website_status.py" beforeDir="false" afterPath="$PROJECT_DIR$/_15_async_IO/_05_website_status.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +63,7 @@
     "Python._01_creating_a_function.executor": "Run",
     "Python._01_if_elif_else.executor": "Run",
     "Python._01_inheritance.executor": "Run",
+    "Python._01_intro.executor": "Run",
     "Python._01_list_comprehension.executor": "Run",
     "Python._01_memoization.executor": "Run",
     "Python._01_modules.executor": "Run",
@@ -67,6 +72,7 @@
     "Python._02_@cached_property.executor": "Run",
     "Python._02_comparing_floats.executor": "Run",
     "Python._02_fields.executor": "Run",
+    "Python._02_getting_started.executor": "Run",
     "Python._02_if_else.executor": "Run",
     "Python._02_slicing.executor": "Run",
     "Python._02_super.executor": "Run",
@@ -81,13 +87,17 @@
     "Python._03_scopes.executor": "Run",
     "Python._03_self.executor": "Run",
     "Python._03_static_methods.executor": "Run",
+    "Python._03_tasks.executor": "Run",
     "Python._03_website_status.executor": "Run",
     "Python._04_class_methods.executor": "Run",
+    "Python._04_gather.executor": "Run",
+    "Python._04_init_var.executor": "Run",
     "Python._04_raise.executor": "Run",
     "Python._04_ranges.executor": "Run",
     "Python._04_return.executor": "Run",
     "Python._04_timing_code.executor": "Run",
     "Python._04_while_loop.executor": "Run",
+    "Python._05_@property.executor": "Run",
     "Python._05_abstract_method.executor": "Run",
     "Python._05_break_and_continue.executor": "Run",
     "Python._05_dunder_methods.executor": "Run",
@@ -99,6 +109,7 @@
     "Python._06_loop_else.executor": "Run",
     "Python._06_name_mangling.executor": "Run",
     "Python._06_notepad.executor": "Run",
+    "Python._06_notes_1.executor": "Run",
     "Python._06_str_and_repr.executor": "Run",
     "Python._07_decorators_2.executor": "Run",
     "Python._07_rock_paper_scissor.executor": "Run",
@@ -151,8 +162,8 @@
       <recent name="$PROJECT_DIR$/PythonIntroduction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._04_init_var">
-    <configuration name="_01_@dataclass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python._05_website_status">
+    <configuration name="_01_intro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,11 +172,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_14_dataclasses" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_15_async_IO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_14_dataclasses/_01_@dataclass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_15_async_IO/_01_intro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_02_fields" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_02_getting_started" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,11 +194,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_14_dataclasses" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_15_async_IO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_14_dataclasses/_02_fields.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_15_async_IO/_02_getting_started.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_03_post_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_03_tasks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,11 +216,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_14_dataclasses" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_15_async_IO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_14_dataclasses/_03_post_init.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_15_async_IO/_03_tasks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,7 +229,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_04_init_var" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_04_gather" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,11 +238,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_14_dataclasses" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_15_async_IO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_14_dataclasses/_04_init_var.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_15_async_IO/_04_gather.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_04_timing_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_05_website_status" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,11 +260,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_17_python_advance_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_15_async_IO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_17_python_advance_2/_04_timing_code.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_15_async_IO/_05_website_status.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._04_init_var" />
-        <item itemvalue="Python._03_post_init" />
-        <item itemvalue="Python._02_fields" />
-        <item itemvalue="Python._01_@dataclass" />
-        <item itemvalue="Python._04_timing_code" />
+        <item itemvalue="Python._05_website_status" />
+        <item itemvalue="Python._04_gather" />
+        <item itemvalue="Python._03_tasks" />
+        <item itemvalue="Python._02_getting_started" />
+        <item itemvalue="Python._01_intro" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +397,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added Python Advance" />
     <MESSAGE value="Readme Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme Updated" />
+    <MESSAGE value="Updated dataclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated dataclasses" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
